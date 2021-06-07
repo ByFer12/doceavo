@@ -1,0 +1,31 @@
+Inicio
+	var altura
+	var edad 
+	var sexo
+	var promHombres, Hombres, i=0
+	var promMujer, Mujer, j=0
+	var promGeneral,General, k=0
+	mientras(edad>0)
+	escribir "Ingrese su altura"
+	leer(altura)
+	escribir "Ingrese su edad"
+	leer(edad)
+	escribir "Ingrese su sexo"
+	leer(sexo)
+		si(sexo==f)
+			mujer=mujer+altura
+			i++
+		sino si(sexo==m)
+			hombre=hombre+altura
+			j++
+		finsi
+	general=edad+general
+	k++
+	finMientras
+	promMujer=mujer/i
+	primHombre=hombre/j
+	promGeneral=general/k
+	mostrar(El promedio de altura de mujeres es "promMujer")
+	mostrar(el promedio de altira de hombres es "promHombre")
+	mostrar(El promedio de edad es de todos "promGeneral")
+Fin
